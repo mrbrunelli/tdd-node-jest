@@ -1,0 +1,6 @@
+Find API:
+  ✔ Should return 200 if connect @done(20-09-02 14:53)
+  ✔ Should return 200 if connect in /cliente route @done(20-09-02 14:53)
+  ✔ Should return 200 if connect in /cliente and provided name correctly @done(20-09-02 14:53)
+  ✔ Should return 404 if provided name incorrectly @done(20-09-02 15:35)
+
