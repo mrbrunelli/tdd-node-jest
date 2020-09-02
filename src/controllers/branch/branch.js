@@ -1,7 +1,7 @@
 const api = require('../../services/api')
 const { serverError } = require('../../errors/')
 
-class FilialController {
+class BranchController {
   constructor(url) {
     this.url = url
   }
@@ -15,4 +15,4 @@ class FilialController {
   }
 }
 
-module.exports = FilialController
+module.exports = BranchController

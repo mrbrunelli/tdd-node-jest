@@ -1,11 +1,11 @@
-const FilialController = require('../filial/filial')
+const BranchController = require('./branch')
 
 const makeSut = (url) => {
-  const sut = new FilialController(url)
+  const sut = new BranchController(url)
   return sut.handle(url)
 }
 
-describe('Filial Controller', () => {
+describe('Branch Controller', () => {
   test('Should return 200 if connect in /filial', async () => {
     const statusCode = await makeSut('/api/filial')
     expect(statusCode).toBe(200)
